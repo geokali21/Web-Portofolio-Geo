@@ -1,60 +1,115 @@
-# Geovani Giesan — Cybersecurity Portfolio
+🛡️ Geovani Giesan | Cybersecurity Portfolio
 
-Website portofolio personal responsif menggunakan HTML, CSS, dan JavaScript murni.
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-Web%20Application%20Security-2563eb?style=for-the-badge" alt="Focus">
+  <img src="https://img.shields.io/badge/Role-Aspiring%20Penetration%20Tester-111827?style=for-the-badge" alt="Role">
+  <img src="https://img.shields.io/badge/Status-Open%20to%20Opportunities-16a34a?style=for-the-badge" alt="Status">
+</p><p align="center">
+  <strong>Breaking things in the lab. Understanding how to secure them.</strong>
+</p><p align="center">
+  Welcome to my personal cybersecurity portfolio — a place where I showcase projects, document CTF challenges, and share my journey in web application security.
+</p>---
 
-## Fitur
-- Desain modern gelap dengan aksen biru.
-- Navigasi responsif dengan menu mobile.
-- Bagian profil, proyek, CTF write-ups, skill, dan kontak.
-- Form kontak membuat draft email melalui aplikasi email pengguna (tidak memerlukan backend).
-- SEO dasar, aksesibilitas, dan dukungan `prefers-reduced-motion`.
+👨‍💻 About Me
 
-## Menjalankan secara lokal
+Hi, I'm Geovani Giesan, a cybersecurity enthusiast focused on Web Application Security and Penetration Testing.
 
-### Cara paling mudah
-1. Ekstrak ZIP.
-2. Buka folder `geovani-cybersecurity-portfolio`.
-3. Buka `index.html` di browser.
+I enjoy exploring how web applications work, understanding security vulnerabilities, and experimenting with tools in authorized lab environments.
 
-### Dengan server lokal (opsional)
-Jika Python terpasang, buka terminal di folder proyek lalu jalankan:
+My approach is simple: learn by doing, document what matters, and always test responsibly.
 
-```bash
-python3 -m http.server 8000
-```
+- 🔎 Interested in web application penetration testing
+- 🧪 Practicing through TryHackMe and PortSwigger Web Security Academy
+- 🐍 Building security-related tools with Python
+- 📝 Documenting CTF challenges and technical findings
+- 🎯 Working toward an entry-level penetration testing role
 
-Buka `http://127.0.0.1:8000`.
+🧰 Skills & Tools
 
-## Deploy gratis dengan GitHub Pages
-1. Buat repository GitHub baru, misalnya `cybersecurity-portfolio`.
-2. Upload `index.html`, `style.css`, `script.js`, dan `README.md` ke root repository.
-3. Buka **Settings → Pages**.
-4. Pada **Build and deployment**, pilih **Deploy from a branch**.
-5. Pilih branch `main` dan folder `/(root)`, lalu tekan **Save**.
-6. Tunggu proses publikasi selesai. URL biasanya berbentuk `https://USERNAME.github.io/cybersecurity-portfolio/`.
+Category| Technologies
+Programming| Python, basic scripting
+Operating Systems| Linux, Kali Linux
+Web Security| OWASP Top 10, SQL Injection, XSS, access control
+Security Tools| Nmap, Burp Suite, Metasploit
+Learning Platforms| TryHackMe, PortSwigger Web Security Academy
+Version Control| Git, GitHub
 
-## Sebelum dipublikasikan
-- Pastikan alamat email `geovani.giesan@gmail.com` benar dan memang ingin ditampilkan secara publik.
-- Ganti link GitHub generik pada setiap kartu dengan URL repository spesifik.
-- Tautan CTF saat ini menuju profil GitHub/halaman resmi. Ubah ke write-up milikmu yang benar-benar tersedia.
-- Kartu proyek merupakan contoh ide, bukan klaim bahwa proyek tersebut telah selesai. Bangun proyeknya, isi repository, tambahkan screenshot dan hasil pengujian sebelum menyatakan selesai.
-- Periksa kembali setiap skill agar sesuai dengan kemampuan yang bisa didemonstrasikan.
-- Jangan mempublikasikan flag, kredensial, data pribadi, atau detail yang dilarang aturan platform CTF.
+Skills reflect areas I practice and study; my proficiency continues to grow through hands-on projects.
 
-## Struktur folder
+🚀 Featured Projects
 
-```text
-geovani-cybersecurity-portfolio/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
+1. HTTP Security Header Checker
 
-## Kustomisasi cepat
-- Edit teks dan tautan di `index.html`.
-- Ubah warna utama melalui variabel CSS `--blue` dan `--blue-strong` di `style.css`.
-- Perilaku menu, tahun footer, navigasi aktif, dan form email ada di `script.js`.
+A Python tool designed to inspect common HTTP security headers and highlight configurations that may need further review.
 
-## Batasan
-Ini website statis. Form kontak tidak menyimpan atau mengirim data ke server; ia hanya membuka draft email. Untuk menerima pesan tanpa aplikasi email, integrasikan backend atau layanan form pihak ketiga setelah meninjau privasi dan keamanannya.
+Focus: Python · HTTP · Web Security
+
+2. Lab Port Scanner
+
+A lightweight Python project for understanding TCP port scanning and network service discovery in authorized lab environments.
+
+Focus: Python · Networking · Linux
+
+3. URL Risk Analyzer
+
+A utility that parses URLs and identifies suspicious patterns for further manual investigation.
+
+Focus: Python · URL Parsing · Security Analysis
+
+4. Log Analyzer
+
+A simple log analysis tool that summarizes patterns such as repeated login failures from sample log files.
+
+Focus: Python · Log Analysis · Security Monitoring
+
+«These are planned or developing portfolio projects. Project descriptions will be updated with repository links, implementation details, screenshots, and test results as the work is completed.»
+
+🏁 CTF Write-ups & Research Notes
+
+I document the techniques, reasoning, and lessons learned from security labs and CTF challenges.
+
+Topics I explore include:
+
+- Web reconnaissance and enumeration
+- SQL Injection and Cross-Site Scripting (XSS)
+- Authentication and access control
+- Linux fundamentals and privilege escalation concepts
+- HTTP request/response analysis
+- Vulnerability impact and remediation
+
+📌 Explore my profiles:
+
+- "GitHub" (https://github.com/geokali21)
+- "TryHackMe" (https://tryhackme.com/p/geovanigiesan6)
+- "PortSwigger Web Security Academy" (https://portswigger.net/web-security)
+
+🎯 Current Goals
+
+- Build practical Python security tools.
+- Improve my understanding of common web vulnerabilities.
+- Publish clear, reproducible project documentation.
+- Develop a stronger portfolio for junior penetration testing opportunities.
+- Practice responsible security testing and reporting.
+
+🤝 Connect With Me
+
+I'm open to connecting with cybersecurity professionals, discussing security projects, and exploring entry-level opportunities.
+
+- GitHub: "@geokali21" (https://github.com/geokali21)
+- TryHackMe: "geovanigiesan6" (https://tryhackme.com/p/geovanigiesan6)
+- Email: Add your preferred professional email here
+- LinkedIn: Add your LinkedIn profile here
+
+⚖️ Ethical Use
+
+All security testing and demonstrations are intended for authorized labs, CTF environments, and systems where permission has been granted.
+
+I believe cybersecurity should be practiced responsibly, with respect for privacy, applicable laws, and system owners.
+
+---
+
+<p align="center">
+  <strong>Curiosity drives discovery. Practice builds skill. Responsibility defines security.</strong>
+</p><p align="center">
+  © Geovani Giesan
+</p>
