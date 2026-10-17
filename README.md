@@ -83,7 +83,7 @@ I'm open to connecting with cybersecurity professionals, discussing security res
 - GitHub: "@geokali21" (https://github.com/geokali21)
 - TryHackMe: "@0xgeoo" (https://tryhackme.com/p/0xgeoo)
 - PortSwigger: "Web Security Academy" (https://portswigger.net/web-security)
-- LinkedIn: "Add your LinkedIn profile" (https://www.linkedin.com/)
+- LinkedIn: "LinkedIn profile" (https://www.linkedin.com/GeovaniGiesan)
 
 ---
 
