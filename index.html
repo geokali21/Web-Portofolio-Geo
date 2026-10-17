@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Geovani Giesan — cybersecurity enthusiast dengan fokus pada web application security dan penetration testing.">
+  <meta name="theme-color" content="#0b1020">
+  <title>Geovani Giesan | Cybersecurity Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Lewati ke konten</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navigasi utama">
+      <a class="brand" href="#home" aria-label="Geovani Giesan, beranda">
+        <span class="brand-mark">GG<span>.</span></span>
+        <span class="brand-copy"><strong>Geovani Giesan</strong><small>Cybersecurity Portfolio</small></span>
+      </a>
+      <button class="menu-toggle" aria-label="Buka navigasi" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">Tentang</a>
+        <a href="#projects">Proyek</a>
+        <a href="#writeups">CTF Write-ups</a>
+        <a href="#skills">Keahlian</a>
+        <a href="#contact" class="nav-contact">Hubungi saya <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section container" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> OPEN TO ENTRY-LEVEL OPPORTUNITIES</div>
+        <p class="kicker">Halo, saya</p>
+        <h1>Geovani <span>Giesan.</span></h1>
+        <h2>Cybersecurity enthusiast <span class="muted">/</span><br>aspiring penetration tester.</h2>
+        <p class="hero-text">Saya mengeksplorasi keamanan aplikasi web, menguji aplikasi di lingkungan yang diizinkan, dan membangun tools sederhana untuk memahami kerentanan serta cara mitigasinya.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Lihat proyek <span aria-hidden="true">↗</span></a>
+          <a class="button button-ghost" href="#writeups">Baca write-ups</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/geokali21" target="_blank" rel="noreferrer"><span class="social-icon">GH</span> GitHub</a>
+          <a href="https://tryhackme.com/p/geovanigiesan6" target="_blank" rel="noreferrer"><span class="social-icon">THM</span> TryHackMe</a>
+          <a href="https://portswigger.net/web-security" target="_blank" rel="noreferrer"><span class="social-icon">PS</span> PortSwigger Academy</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Ilustrasi dekoratif terminal keamanan">
+        <div class="visual-grid"></div>
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="terminal-card">
+          <div class="terminal-top"><div class="window-dots"><i></i><i></i><i></i></div><span>~/geovani/portfolio</span><span class="terminal-lock">● SECURE LAB</span></div>
+          <div class="terminal-body">
+            <p><span class="terminal-green">geovani@lab</span>:<span class="terminal-blue">~</span>$ whoami</p>
+            <p class="terminal-output">cybersecurity enthusiast</p>
+            <p><span class="terminal-green">geovani@lab</span>:<span class="terminal-blue">~</span>$ focus --list</p>
+            <ul><li>web application security</li><li>penetration testing labs</li><li>python security tools</li><li>CTF write-ups</li></ul>
+            <p><span class="terminal-green">geovani@lab</span>:<span class="terminal-blue">~</span>$ <span class="cursor">▋</span></p>
+          </div>
+          <div class="terminal-footer"><span><span class="status-dot"></span> LAB MODE</span><span>Curiosity → Practice → Document</span></div>
+        </div>
+        <div class="floating-note note-top"><span class="note-symbol">⌘</span><span><strong>Think critically</strong><small>Test ethically</small></span></div>
+        <div class="floating-note note-bottom"><span class="note-symbol note-blue">↗</span><span><strong>Hands-on practice</strong><small>Always authorized</small></span></div>
+      </div>
+      <div class="hero-bottom"><span>01 / ABOUT MY WORK</span><span class="scroll-cue">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></span></div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <div><p class="section-index">01 — PROFILE</p><h2>Tentang <span>saya.</span></h2></div>
+        <p class="section-intro">Membangun pemahaman keamanan melalui praktik, dokumentasi, dan rasa ingin tahu.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy panel">
+          <p>Saya Geovani Giesan, seorang peminat cybersecurity yang berfokus pada <strong>web application security</strong> dan jalur karier penetration testing.</p>
+          <p>Saya berlatih melalui platform seperti TryHackMe dan PortSwigger Web Security Academy, serta mendokumentasikan proses pemecahan tantangan dan eksperimen di lab yang legal.</p>
+          <p>Tujuan saya adalah mengembangkan kemampuan mengidentifikasi risiko, menjelaskan dampaknya dengan jelas, dan menyampaikan rekomendasi perbaikan yang berguna.</p>
+          <div class="principles"><span>01 / Learn by doing</span><span>02 / Document clearly</span><span>03 / Test responsibly</span></div>
+        </div>
+        <div class="about-side">
+          <div class="profile-card panel">
+            <div class="profile-avatar">GG<span>.</span></div>
+            <div><h3>Geovani Giesan</h3><p>Junior Pentester Candidate</p></div>
+            <span class="profile-line"></span>
+            <div class="profile-meta"><span>Fokus</span><strong>Web App Security</strong></div>
+            <div class="profile-meta"><span>Lingkungan</span><strong>Labs & CTF</strong></div>
+            <div class="profile-meta"><span>Lokasi</span><strong>Indonesia</strong></div>
+          </div>
+          <div class="quote-card"><span class="quote-mark">“</span><p>Security is a process of asking better questions.</p><small>PERSONAL APPROACH</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading">
+        <div><p class="section-index">02 — SELECTED WORK</p><h2>Proyek <span>pilihan.</span></h2></div>
+        <p class="section-intro">Contoh proyek yang bisa dikembangkan dan diisi dengan hasil kerja nyata. Buka repository untuk melihat kode dan dokumentasi.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card panel">
+          <div class="project-top"><div class="project-icon icon-shield">◇</div><span class="project-type">PYTHON / WEB</span></div>
+          <h3>HTTP Security Header Checker</h3>
+          <p>Memeriksa header respons HTTP umum dan memberikan ringkasan konfigurasi yang perlu ditinjau.</p>
+          <div class="tag-list"><span>Python</span><span>HTTP</span><span>Web Security</span></div>
+          <a class="text-link" href="https://github.com/geokali21" target="_blank" rel="noreferrer">Lihat repository <span>↗</span></a>
+        </article>
+        <article class="project-card panel">
+          <div class="project-top"><div class="project-icon icon-nodes">⌘</div><span class="project-type">PYTHON / NETWORK</span></div>
+          <h3>Lab Port Scanner</h3>
+          <p>Scanner port TCP sederhana untuk memahami konektivitas dan layanan pada host milik sendiri atau lab berizin.</p>
+          <div class="tag-list"><span>Python</span><span>Networking</span><span>CLI</span></div>
+          <a class="text-link" href="https://github.com/geokali21" target="_blank" rel="noreferrer">Lihat repository <span>↗</span></a>
+        </article>
+        <article class="project-card panel">
+          <div class="project-top"><div class="project-icon icon-link">⌁</div><span class="project-type">PYTHON / ANALYSIS</span></div>
+          <h3>URL Risk Analyzer</h3>
+          <p>Mengurai komponen URL dan menandai pola yang patut diperiksa lebih lanjut tanpa mengunjungi target secara otomatis.</p>
+          <div class="tag-list"><span>Python</span><span>URL Parsing</span><span>CLI</span></div>
+          <a class="text-link" href="https://github.com/geokali21" target="_blank" rel="noreferrer">Lihat repository <span>↗</span></a>
+        </article>
+        <article class="project-card panel">
+          <div class="project-top"><div class="project-icon icon-terminal">$_</div><span class="project-type">LOG / FORENSICS</span></div>
+          <h3>Log Analyzer</h3>
+          <p>Membaca log contoh dan merangkum pola seperti percobaan login berulang untuk latihan analisis dasar.</p>
+          <div class="tag-list"><span>Python</span><span>Logs</span><span>Analysis</span></div>
+          <a class="text-link" href="https://github.com/geokali21" target="_blank" rel="noreferrer">Lihat repository <span>↗</span></a>
+        </article>
+        <article class="project-card panel">
+          <div class="project-top"><div class="project-icon icon-lab">▦</div><span class="project-type">LOCAL LAB / WEB</span></div>
+          <h3>Vulnerable Web App Lab</h3>
+          <p>Aplikasi web sengaja rentan yang berjalan lokal untuk mendemonstrasikan validasi input dan kontrol akses secara aman.</p>
+          <div class="tag-list"><span>Web</span><span>OWASP</span><span>Local Lab</span></div>
+          <a class="text-link" href="https://github.com/geokali21" target="_blank" rel="noreferrer">Lihat repository <span>↗</span></a>
+        </article>
+        <article class="project-card project-cta panel">
+          <div class="cta-orbit"><span>+</span></div>
+          <p class="section-index">NEXT BUILD</p>
+          <h3>Project berikutnya dimulai dari pertanyaan.</h3>
+          <p>Setiap proyek baru akan ditambahkan dengan tujuan, ruang lingkup, hasil pengujian, dan langkah menjalankannya.</p>
+          <a class="text-link" href="https://github.com/geokali21" target="_blank" rel="noreferrer">Jelajahi GitHub <span>↗</span></a>
+        </article>
+      </div>
+      <p class="disclaimer"><span>ⓘ</span> Kartu proyek di atas adalah contoh/ide portofolio. Ganti dengan proyek yang benar-benar sudah dibuat, repository spesifik, hasil pengujian, dan screenshot sebelum dipublikasikan.</p>
+    </section>
+
+    <section class="section container" id="writeups">
+      <div class="section-heading">
+        <div><p class="section-index">03 — LEARNING LOG</p><h2>CTF <span>write-ups.</span></h2></div>
+        <p class="section-intro">Dokumentasi proses berpikir, teknik yang dipelajari, bukti, dan mitigasi — bukan sekadar daftar flag.</p>
+      </div>
+      <div class="writeup-list">
+        <article class="writeup-row">
+          <div class="writeup-badge">THM</div><div class="writeup-main"><div class="writeup-title"><h3>TakeOver</h3><span class="difficulty easy">EASY</span></div><p>Catatan enumerasi subdomain dan validasi temuan di lingkungan latihan.</p><div class="tag-list"><span>Recon</span><span>DNS</span><span>Web</span></div></div><a class="row-arrow" href="https://github.com/geokali21" target="_blank" rel="noreferrer" aria-label="Lihat write-up TakeOver">↗</a>
+        </article>
+        <article class="writeup-row">
+          <div class="writeup-badge">THM</div><div class="writeup-main"><div class="writeup-title"><h3>Overpass</h3><span class="difficulty easy">EASY</span></div><p>Ringkasan alur investigasi layanan, aplikasi web, dan pembelajaran dari lab.</p><div class="tag-list"><span>Web</span><span>Linux</span><span>CTF</span></div></div><a class="row-arrow" href="https://github.com/geokali21" target="_blank" rel="noreferrer" aria-label="Lihat write-up Overpass">↗</a>
+        </article>
+        <article class="writeup-row">
+          <div class="writeup-badge">PS</div><div class="writeup-main"><div class="writeup-title"><h3>PortSwigger Web Security Academy</h3><span class="difficulty practice">PRACTICE</span></div><p>Rangkuman lab web security, termasuk konsep, request/response, dampak, dan mitigasi.</p><div class="tag-list"><span>SQLi</span><span>XSS</span><span>Access Control</span></div></div><a class="row-arrow" href="https://portswigger.net/web-security" target="_blank" rel="noreferrer" aria-label="Buka PortSwigger Web Security Academy">↗</a>
+        </article>
+      </div>
+      <p class="disclaimer"><span>ⓘ</span> Tautan write-up saat ini mengarah ke profil GitHub. Perbarui ke URL artikel yang tepat dan hanya publikasikan detail yang diizinkan oleh aturan platform/CTF.</p>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <div><p class="section-index">04 — TOOLKIT</p><h2>Keahlian & <span>tools.</span></h2></div>
+        <p class="section-intro">Fokus pada fondasi teknis, dokumentasi yang jelas, dan pengujian yang bertanggung jawab.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-panel panel"><div class="skill-heading"><span class="skill-symbol">⌘</span><h3>Technical focus</h3></div><div class="skill-items"><span>Web Application Security</span><span>HTTP & Networking</span><span>Linux Fundamentals</span><span>Vulnerability Assessment</span><span>Basic Scripting</span><span>Access Control Concepts</span></div></div>
+        <div class="skill-panel panel"><div class="skill-heading"><span class="skill-symbol">▣</span><h3>Tools & platforms</h3></div><div class="skill-items"><span>Nmap</span><span>Burp Suite</span><span>Metasploit Framework</span><span>Wireshark</span><span>Git & GitHub</span><span>Kali Linux</span><span>TryHackMe</span><span>PortSwigger Academy</span></div></div>
+        <div class="skill-panel panel"><div class="skill-heading"><span class="skill-symbol">✳</span><h3>Working style</h3></div><div class="skill-items"><span>Analytical thinking</span><span>Problem solving</span><span>Persistence</span><span>Clear documentation</span><span>Curiosity</span><span>Team communication</span></div></div>
+      </div>
+      <p class="skill-note">Cantumkan hanya kemampuan yang bisa kamu jelaskan dan demonstrasikan saat wawancara. Sesuaikan daftar ini seiring perkembangan pengalaman nyata.</p>
+    </section>
+
+    <section class="section container contact-section" id="contact">
+      <div class="contact-panel">
+        <div class="contact-copy"><p class="section-index">05 — GET IN TOUCH</p><h2>Mari bicara tentang <span>security.</span></h2><p>Terbuka untuk peluang entry-level, kolaborasi proyek, dan diskusi seputar keamanan aplikasi web.</p>
+          <div class="contact-links">
+            <a href="mailto:geovani.giesan@gmail.com"><span class="contact-icon">@</span><span><small>Email</small><strong>geovani.giesan@gmail.com</strong></span><b>↗</b></a>
+            <a href="https://github.com/geokali21" target="_blank" rel="noreferrer"><span class="contact-icon">GH</span><span><small>GitHub</small><strong>github.com/geokali21</strong></span><b>↗</b></a>
+            <a href="https://tryhackme.com/p/geovanigiesan6" target="_blank" rel="noreferrer"><span class="contact-icon">THM</span><span><small>TryHackMe</small><strong>geovanigiesan6</strong></span><b>↗</b></a>
+          </div>
+        </div>
+        <form class="contact-form panel" id="contact-form">
+          <h3>Kirim pesan</h3><p>Form ini akan membuka aplikasi email kamu.</p>
+          <label for="name">Nama</label><input id="name" name="name" type="text" placeholder="Nama kamu" required>
+          <label for="email">Email</label><input id="email" name="email" type="email" placeholder="nama@email.com" required>
+          <label for="message">Pesan</label><textarea id="message" name="message" rows="4" placeholder="Tulis pesan..." required></textarea>
+          <button class="button button-primary form-submit" type="submit">Buat email <span aria-hidden="true">↗</span></button>
+          <p class="form-status" id="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="footer-brand" href="#home">GG<span>.</span></a><p>© <span id="year"></span> Geovani Giesan. Dibuat dengan rasa ingin tahu.</p><a href="#home" class="back-top">Kembali ke atas ↑</a></div>
+  </footer>
+</body>
+</html>
