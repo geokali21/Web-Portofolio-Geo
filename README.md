@@ -1,115 +1,138 @@
-🛡️ Geovani Giesan | Cybersecurity Portfolio
+Geovani Giesan — Cybersecurity Portfolio
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Focus-Web%20Application%20Security-2563eb?style=for-the-badge" alt="Focus">
-  <img src="https://img.shields.io/badge/Role-Aspiring%20Penetration%20Tester-111827?style=for-the-badge" alt="Role">
-  <img src="https://img.shields.io/badge/Status-Open%20to%20Opportunities-16a34a?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/Focus-Web%20Application%20Security-00D9A6?style=for-the-badge" alt="Focus"/>
+  <img src="https://img.shields.io/badge/Role-Junior%20Penetration%20Tester-111827?style=for-the-badge" alt="Role"/>
+  <img src="https://img.shields.io/badge/Status-Open%20to%20Opportunities-22C55E?style=for-the-badge" alt="Status"/>
 </p><p align="center">
-  <strong>Breaking things in the lab. Understanding how to secure them.</strong>
-</p><p align="center">
-  Welcome to my personal cybersecurity portfolio — a place where I showcase projects, document CTF challenges, and share my journey in web application security.
+  <b>Breaking Things to Understand How They Work.</b>
+  <br/>
+  A personal cybersecurity portfolio showcasing my projects, CTF write-ups, and web application security journey.
 </p>---
 
 👨‍💻 About Me
 
-Hi, I'm Geovani Giesan, a cybersecurity enthusiast focused on Web Application Security and Penetration Testing.
+Hi, I'm Geovani Giesan, also known as 0xgeoo.
 
-I enjoy exploring how web applications work, understanding security vulnerabilities, and experimenting with tools in authorized lab environments.
+I'm an aspiring Junior Penetration Tester with a strong interest in web application security and offensive security. I enjoy exploring how applications work, identifying potential vulnerabilities, and understanding how security weaknesses can be discovered and addressed.
 
-My approach is simple: learn by doing, document what matters, and always test responsibly.
+I document my hands-on practice, technical projects, and CTF challenges to demonstrate my practical skills and problem-solving approach.
 
-- 🔎 Interested in web application penetration testing
-- 🧪 Practicing through TryHackMe and PortSwigger Web Security Academy
-- 🐍 Building security-related tools with Python
-- 📝 Documenting CTF challenges and technical findings
-- 🎯 Working toward an entry-level penetration testing role
+- 🎯 Focus: Penetration Testing & Web Application Security
+- 🧪 Practice Platforms: TryHackMe & PortSwigger Web Security Academy
+- 🛠️ Tools: Burp Suite, Nmap, Metasploit, and Kali Linux
+- 📝 Documentation: CTF write-ups, security notes, and project reports
+- 🚀 Goal: Pursue a career in offensive security and penetration testing
 
-🧰 Skills & Tools
+🛠️ Skills & Technologies
 
 Category| Technologies
-Programming| Python, basic scripting
-Operating Systems| Linux, Kali Linux
-Web Security| OWASP Top 10, SQL Injection, XSS, access control
-Security Tools| Nmap, Burp Suite, Metasploit
+Operating Systems| Kali Linux, Linux
+Web Security| SQL Injection, XSS, IDOR, CSRF, SSRF
+Security Tools| Burp Suite, Nmap, Metasploit
+Programming| Python, Bash
+Methodology| Reconnaissance, Vulnerability Analysis, Exploitation, Privilege Escalation
 Learning Platforms| TryHackMe, PortSwigger Web Security Academy
-Version Control| Git, GitHub
 
-Skills reflect areas I practice and study; my proficiency continues to grow through hands-on projects.
+Skills represent areas of hands-on practice and ongoing development.
 
-🚀 Featured Projects
+🚩 Featured Projects
 
-1. HTTP Security Header Checker
+This portfolio highlights my cybersecurity projects, technical experiments, and practical security research.
 
-A Python tool designed to inspect common HTTP security headers and highlight configurations that may need further review.
+- Security Tools — Python-based tools for cybersecurity learning and authorized testing.
+- Web Application Security — Projects exploring common web vulnerabilities in controlled environments.
+- CTF Write-ups — Technical notes documenting challenge-solving approaches, findings, and lessons learned.
+- Security Labs — Hands-on experiments focused on penetration testing methodologies.
 
-Focus: Python · HTTP · Web Security
+«More projects will be added as I build and document new work.»
 
-2. Lab Port Scanner
+🏴 CTF Write-ups
 
-A lightweight Python project for understanding TCP port scanning and network service discovery in authorized lab environments.
+I use Capture The Flag (CTF) challenges to practice technical problem-solving, understand attack paths, and improve my penetration testing methodology.
 
-Focus: Python · Networking · Linux
+My write-ups may cover:
 
-3. URL Risk Analyzer
+- Reconnaissance and enumeration
+- Web application vulnerabilities
+- Linux privilege escalation
+- Exploitation and post-exploitation analysis
+- Lessons learned and remediation recommendations
 
-A utility that parses URLs and identifies suspicious patterns for further manual investigation.
+🔗 TryHackMe: "0xgeoo" (https://tryhackme.com/p/0xgeoo)
 
-Focus: Python · URL Parsing · Security Analysis
+🔗 PortSwigger Web Security Academy: "portswigger.net/web-security" (https://portswigger.net/web-security)
 
-4. Log Analyzer
+🌐 Portfolio Website
 
-A simple log analysis tool that summarizes patterns such as repeated login failures from sample log files.
+My personal website brings together my cybersecurity profile, projects, CTF write-ups, technical skills, and contact information.
 
-Focus: Python · Log Analysis · Security Monitoring
+Website features:
 
-«These are planned or developing portfolio projects. Project descriptions will be updated with repository links, implementation details, screenshots, and test results as the work is completed.»
+- Personal introduction and professional profile
+- Cybersecurity project showcase
+- CTF write-up collection
+- Skills and tools overview
+- Contact and professional links
+- Responsive design for desktop and mobile devices
 
-🏁 CTF Write-ups & Research Notes
+💻 Tech Stack
 
-I document the techniques, reasoning, and lessons learned from security labs and CTF challenges.
+This website is built using:
 
-Topics I explore include:
+- HTML5 — Website structure
+- CSS3 — Styling, layout, and responsive design
+- JavaScript — Interactive elements and functionality
 
-- Web reconnaissance and enumeration
-- SQL Injection and Cross-Site Scripting (XSS)
-- Authentication and access control
-- Linux fundamentals and privilege escalation concepts
-- HTTP request/response analysis
-- Vulnerability impact and remediation
+📂 Repository Structure
 
-📌 Explore my profiles:
+cybersecurity-portfolio/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── assets/
+│   └── images/
+└── README.md
 
-- "GitHub" (https://github.com/geokali21)
-- "TryHackMe" (https://tryhackme.com/p/geovanigiesan6)
-- "PortSwigger Web Security Academy" (https://portswigger.net/web-security)
+Adjust this structure to match the actual files in your repository.
 
-🎯 Current Goals
+⚙️ Run Locally
 
-- Build practical Python security tools.
-- Improve my understanding of common web vulnerabilities.
-- Publish clear, reproducible project documentation.
-- Develop a stronger portfolio for junior penetration testing opportunities.
-- Practice responsible security testing and reporting.
+1. Clone the repository:
+   
+   git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
 
-🤝 Connect With Me
+2. Navigate to the project directory:
+   
+   cd YOUR_REPOSITORY
 
-I'm open to connecting with cybersecurity professionals, discussing security projects, and exploring entry-level opportunities.
+3. Open "index.html" in your browser, or use the Live Server extension in Visual Studio Code.
+
+🚀 Deployment
+
+This website can be deployed using GitHub Pages.
+
+1. Open your repository on GitHub.
+2. Go to Settings → Pages.
+3. Select Deploy from a branch.
+4. Choose your deployment branch and root folder.
+5. Save and wait for GitHub Pages to publish your website.
+
+📬 Contact
+
+I'm open to connecting with cybersecurity professionals, discussing security research, and exploring entry-level opportunities in penetration testing.
 
 - GitHub: "@geokali21" (https://github.com/geokali21)
-- TryHackMe: "geovanigiesan6" (https://tryhackme.com/p/geovanigiesan6)
-- Email: Add your preferred professional email here
-- LinkedIn: Add your LinkedIn profile here
-
-⚖️ Ethical Use
-
-All security testing and demonstrations are intended for authorized labs, CTF environments, and systems where permission has been granted.
-
-I believe cybersecurity should be practiced responsibly, with respect for privacy, applicable laws, and system owners.
+- TryHackMe: "@0xgeoo" (https://tryhackme.com/p/0xgeoo)
+- PortSwigger: "Web Security Academy" (https://portswigger.net/web-security)
+- LinkedIn: "Add your LinkedIn profile" (https://www.linkedin.com/)
 
 ---
 
 <p align="center">
-  <strong>Curiosity drives discovery. Practice builds skill. Responsibility defines security.</strong>
-</p><p align="center">
-  © Geovani Giesan
+  <b>0xgeoo</b>
+  <br/>
+  <i>Think like an attacker. Understand the weakness. Improve the security.</i>
 </p>
