@@ -20,7 +20,6 @@ if (menuToggle && navLinks) {
 const year = document.querySelector('#year');
 if (year) year.textContent = new Date().getFullYear();
 
-// Form statis: buat draft email di aplikasi email pengguna, tanpa backend.
 const contactForm = document.querySelector('#contact-form');
 const formStatus = document.querySelector('#form-status');
 if (contactForm) {
@@ -43,7 +42,6 @@ if (contactForm) {
   });
 }
 
-// Penanda navigasi untuk bagian yang sedang terlihat.
 const sections = document.querySelectorAll('main section[id]');
 const navAnchors = document.querySelectorAll('.nav-links a[href^="#"]');
 if ('IntersectionObserver' in window && sections.length && navAnchors.length) {
